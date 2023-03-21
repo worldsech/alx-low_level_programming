@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
-* main - check the code
+* print_alphabet - Entry point
+*main - Entry point
 *Description: 'print alphabet function'
-* Return: Always 0.
+*Return: Always 0.
 */
 void print_alphabet(void)
 {
