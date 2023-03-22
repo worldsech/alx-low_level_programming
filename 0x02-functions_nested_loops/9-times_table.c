@@ -16,10 +16,14 @@ _putchar(result / 10 + '0');
 }
 else
 {
+if (j != 0)
+{
 _putchar(' ');
 }
+}
 _putchar(result % 10 + '0');
-if (j != 9){
+if (j != 9)
+{
 _putchar(',');
 _putchar(' ');
 }
