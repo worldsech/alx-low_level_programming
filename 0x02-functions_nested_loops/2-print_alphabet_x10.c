@@ -5,15 +5,17 @@
 */
 void print_alphabet_x10(void)
 {
-char ch;
-int i = 0;
-while (i <= 10)
-ch = 'a';
-while (ch <= 'z')
+char c = 'a';
+int i = 0, j = 0;
+while (i < 10)
 {
-_putchar(ch);
-ch++;
+while (j < 26)
+{
+_putchar (c + j);
+j++;
 }
-_putchar('\n');
 i++;
+j = 0;
+_putchar ('\n');
+}
 }
