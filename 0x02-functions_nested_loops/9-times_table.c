@@ -19,6 +19,7 @@ else
 _putchar(' ');
 }
 _putchar(result % 10 + '0');
+_putchar(',');
 _putchar(' ');
 }
 _putchar('\n');
