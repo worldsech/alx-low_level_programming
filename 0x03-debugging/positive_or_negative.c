@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * positive_or_negative: to test fot zero
+ *positive_or_negative: to test fot zero
+ *description: 'program to return 0'
+ *return: always return 0
  */
 void positive_or_negative(int i)
 {
